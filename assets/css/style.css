@@ -159,13 +159,23 @@ header nav li {
     margin-bottom: 15px;
 }
 
-.hero h3 {
-    font: normal 2àpx 'Open Sans' sans-serif;
+.hero p {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 40px;
+    color: #414a4f;
+    opacity: .6;
 }
 
 .hero a.btn {
     padding: 20px 40px;
+    transition: all .2s ease-in-out;
+}
+
+.hero a.btn:hover {
+    padding: 20px 40px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.15);
 }
 
 @media (max-width: 800px) {
