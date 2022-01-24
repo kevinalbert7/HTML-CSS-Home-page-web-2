@@ -15,7 +15,7 @@ ul, nav {
     list-style:none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
@@ -105,7 +105,7 @@ header a img {
     background-color: transparent;
 }
 
-header li{
+header li {
     font-family: fantasy;
     font-size: 25px;
 }
@@ -128,7 +128,7 @@ header nav li {
     header {
         flex-direction: column;
     }
-    header h2{
+    header h2 {
         margin-bottom: 15px;
     }
 }
@@ -177,7 +177,6 @@ header nav li {
     transition: all .2s ease-in-out;
     transform: scale(1.15);
 }
-
 @media (max-width: 800px) {
     .hero {
         min-height: 600px;
@@ -207,7 +206,7 @@ header nav li {
     transition: all .2s ease-in-out;
 }
 
-.my-work .grid li:hover{
+.my-work .grid li:hover {
     transform: scale(1.1);
 }
 
